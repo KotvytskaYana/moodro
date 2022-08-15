@@ -1,0 +1,474 @@
+:root{
+    --accent-color:#FF8A00;
+    --main-text-color:#0A0A0A;
+    --main-white-color: #ffffff;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+
+a { text-decoration: none;}
+h1,h2,h3,h4,h5,h6,p{ 
+    margin: 0;
+}
+img{display: block;}
+body{
+    background: var(--main-white-color);
+    background-image: url(../img/Group\ 8.png);
+    color: var(--main-text-color);
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.list{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1360px;
+    /* outline: 1px solid #C55E01; */
+}
+.wraper{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+    margin-left: 271px;
+    margin-right: 160px;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 40px;
+
+}
+.header-nav-link{
+    display: block;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 1.5;
+}
+.header-nav-link:hover, .header-nav-link:focus {
+    color: var(--accent-color);
+}
+.header-btn
+{
+    background: linear-gradient(180deg, #FF7900 0%, #C55E01 110.5%);
+    border-radius: 25px;
+    color: var(--main-white-color);
+    padding: 12px 46px 12px 46px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+.header-btn:hover,
+.header-btn:focus {
+    background: #f0b786;
+    color: #F8F8F8;
+}
+.hero-wraper{
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+.hero{
+    width: 704px;
+}
+
+.main-page-title {
+    margin: 0;
+    margin-bottom: 23px;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 1.21;
+    
+
+    background: linear-gradient(180deg, #FF7900 0%, #C55E01 110.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-page-text{font-weight: 700;
+    font-size: 48px;
+    line-height: 1.22;}
+
+ 
+.assistant-container{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.assistant-wrap{
+    margin-left: 240px;
+}
+.assistant-title{
+    margin-bottom: 32px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+}
+.assistant-title span{
+    color: #FF8A00;
+}
+.assistant-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+.forwho-wraper{
+    padding-top: 100px;
+        padding-bottom: 100px;
+}
+.forwho-title{
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.22;
+}
+.forwho-list{
+    display: flex;
+    justify-content: flex-end;
+}
+.forwho-item{
+    width: 300px;
+}
+.forwho-item:not(:first-child){
+    margin-left: 120px;
+
+}
+
+.forwho-item-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+}
+.forwho-item-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+/* offer */
+.offer{
+    background: linear-gradient(180deg, #FF7900 0%, #C55E01 110.5%);
+}
+.offer-container{
+    padding-top: 135px;
+    padding-bottom: 135px;
+    
+    display: flex;
+    justify-content: flex-end;
+
+}
+.icon-box {
+    margin-bottom: 10px;
+}
+
+.icon {
+    fill: #C55E01;
+}
+.offer-title{
+    width: 547px;
+    margin-bottom: 100px;
+    color: #F8F8F8;
+    font-weight: 400;
+        font-size: 48px;
+        line-height: 1.22;
+}
+.offer-title span{
+    font-weight: 700;
+}
+
+.offer-text{
+    margin-left: 122px;
+    color: #F8F8F8;
+    font-weight: 700;
+        font-size: 300px;
+        line-height: 1.22;
+}
+.offer-btn{
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 82px;
+    padding-right: 82px;
+    
+    background: #F8F8F8;
+    border-radius: 25px;
+    color: #FF7900;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+.offer-btn:hover,
+.offer-btn:focus {
+    background: #f0b786;
+    color: #F8F8F8;
+}
+
+.how-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.how-list{
+    margin-right: 130px;
+}
+.how-title{
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.22;
+}
+.how-item:not(:last-child){
+    margin-bottom: 70px;
+
+}
+.how-item{
+    width: 430px;
+}
+.how-item-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.ecology-wrap{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.ecology-list{
+    margin-left: 23px;
+}
+.ecology-title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.22;
+}
+.ecology-container{
+    display: flex;
+}
+.ecology-list{
+    width: 547px;
+}
+.ecology-item:not(:last-child){
+    margin-bottom: 60px;
+}
+.ecology-item-title{
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.22;
+    background: linear-gradient(180deg, #FF7900 0%, #C55E01 110.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.ecology-item-title:not(:last-child){
+margin-bottom: 36px;
+}
+
+.ecology-item-text{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* reviews */
+.reviews{
+    position: relative;
+}
+.reviews-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* .reviews-first {
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+.reviews-second{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.reviews-second-wrap{
+    position: relative;
+}
+.reviews-text-wrap{
+    position: absolute;
+    left: 21%;
+    bottom: 17%;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background: #F8F8F8;
+     backdrop-filter: blur(50px);
+    width: 320px;
+}
+.reviews-text-wrap-second
+{
+        position: absolute;
+            left: 44%;
+            bottom: 25%;
+}
+.reviews-title-descr{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.22;
+}
+
+
+
+.reviews-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.reviews-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+
+/* today */
+.today{background: linear-gradient(180deg, #FF7900 0%, #C55E01 110.5%);}
+.today-container{
+    padding-top: 85px;
+    padding-bottom: 85px;
+   display: flex;
+   align-items: center;
+}
+.today-title{
+    margin-bottom: 60px;
+    color: #F8F8F8;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.22;
+}
+.today-title span{
+    font-weight: 700;
+}
+.today-text{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 300px;
+    line-height: 1.22;
+}
+.today-form-action{
+    margin-bottom: 30px;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.5;
+color: #F8F8F8;
+}
+
+.today-btn {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 82px;
+    padding-right: 82px;
+
+    background: #F8F8F8;
+    border-radius: 25px;
+    color: #FF7900;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+
+
+}
+.today-btn:hover, .today-btn:focus{
+    background: #f0b786;
+    color: #F8F8F8;
+}
+
+.today-select{
+    margin-bottom: 60px;
+}
+.today-select-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.today-form-lab{
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #F8F8F8;
+}
+select{ 
+     background-color:inherit;
+     border-color:#FF7900 ;
+     border-bottom: 1px solid #F8F8F8;
+     width: 400px;
+}
+
+/* footer */
+.footer{
+background: #0A0A0A;
+}
+.footer-container{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
+    display: flex;
+    
+}
+.footer-conf{
+    color: #F8F8F8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.footer-social{
+    display: flex;
+    margin-left: 72px;
+}
+
+.footer-icon{
+    fill: #fff;
+}
+.footer-icon:hover {
+    fill: #C55E01;
+}
+.footer-link{
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #F8F8F8;
+}
+.footer-social-list:not(:last-child){
+    margin-right: 11px;
+}
